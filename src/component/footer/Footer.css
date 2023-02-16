@@ -1,0 +1,24 @@
+.footer{
+    background-color:rgb(113, 4, 59);
+    height:200px;
+    bottom: 0;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    grid-gap: 0px;
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.91);
+  }
+  
+  .footer-item {
+    /* background-color: #ffff; */
+    /* border: 1px solid rgb(4, 11, 10); */
+    /* border-radius: 10px; */
+    color:#ffff;
+    padding: 10px;
+    /* font-size: 20px; */
+    text-align: center;
+  }

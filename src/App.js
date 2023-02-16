@@ -5,9 +5,11 @@ import Home from "./component/pages/Home";
 import About from "./component/pages/About";
 import Vehicles from "./component/pages/Vehicles";
 import Contact from "./component/pages/Contact";
+import Footer from "./component/footer/Footer";
 
 function App() {
   return (
+    <>
     <>
       <Router>
         <Header />
@@ -20,6 +22,10 @@ function App() {
       </Routes>
       </div>
       </Router>
+    </>
+    <>
+    <Footer />
+    </>
     </>
   );
 }

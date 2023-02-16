@@ -1,8 +1,13 @@
 .home {
   margin-top: 30px;
   width: 100%;
-  /* background-color: blue; */
-  /* justify-content: space-evenly; */
-  display: flex;
+  /* background-color: blue;  */
+  justify-content: space-evenly;
+  display:flex;
   flex-direction: wrap;
-}
+  /* overflow-wrap: normal; */
+  /* flex-flow: column wrap; */
+  /* background-color: #b5fac7; */
+  /* border-color: cadetblue;
+  border-width: 10px; */
+}  

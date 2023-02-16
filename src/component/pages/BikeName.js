@@ -16,7 +16,7 @@ function BikeName(props) {
           {model}
         </span>
         <span className="grid-item">
-          <strong>KMS:</strong>
+          <strong>KM:</strong>
           {km}
         </span>
         <span className="grid-item">
@@ -31,6 +31,6 @@ function BikeName(props) {
       <button className="btn">Click for More Information</button>
     </div>
   );
-}
+};
 
 export default BikeName;
